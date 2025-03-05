@@ -1,0 +1,407 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "email": "john.doe@example.com",
+            "age": 28,
+            "address": {
+                "street": "123 Main St",
+                "city": "Anytown",
+                "state": "CA",
+                "zip": "12345"
+            },
+            "phoneNumbers": [
+                "555-1234",
+                "555-5678"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Jane Smith",
+            "email": "jane.smith@example.com",
+            "age": 34,
+            "address": {
+                "street": "456 Elm St",
+                "city": "Othertown",
+                "state": "NY",
+                "zip": "67890"
+            },
+            "phoneNumbers": [
+                "555-8765",
+                "555-4321"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Alice Johnson",
+            "email": "alice.johnson@example.com",
+            "age": 29,
+            "address": {
+                "street": "789 Oak St",
+                "city": "Sometown",
+                "state": "TX",
+                "zip": "54321"
+            },
+            "phoneNumbers": [
+                "555-2345",
+                "555-6789"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Bob Brown",
+            "email": "bob.brown@example.com",
+            "age": 45,
+            "address": {
+                "street": "101 Pine St",
+                "city": "Anycity",
+                "state": "FL",
+                "zip": "98765"
+            },
+            "phoneNumbers": [
+                "555-3456",
+                "555-7890"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Charlie Davis",
+            "email": "charlie.davis@example.com",
+            "age": 32,
+            "address": {
+                "street": "202 Maple St",
+                "city": "Yourtown",
+                "state": "WA",
+                "zip": "11223"
+            },
+            "phoneNumbers": [
+                "555-4567",
+                "555-8901"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Diana Evans",
+            "email": "diana.evans@example.com",
+            "age": 27,
+            "address": {
+                "street": "303 Birch St",
+                "city": "Mytown",
+                "state": "OR",
+                "zip": "33445"
+            },
+            "phoneNumbers": [
+                "555-5678",
+                "555-9012"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Ethan Foster",
+            "email": "ethan.foster@example.com",
+            "age": 38,
+            "address": {
+                "street": "404 Cedar St",
+                "city": "Thistown",
+                "state": "NV",
+                "zip": "55667"
+            },
+            "phoneNumbers": [
+                "555-6789",
+                "555-0123"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Fiona Green",
+            "email": "fiona.green@example.com",
+            "age": 31,
+            "address": {
+                "street": "505 Walnut St",
+                "city": "Thattown",
+                "state": "AZ",
+                "zip": "77889"
+            },
+            "phoneNumbers": [
+                "555-7890",
+                "555-1234"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "George Harris",
+            "email": "george.harris@example.com",
+            "age": 40,
+            "address": {
+                "street": "606 Chestnut St",
+                "city": "Anothertown",
+                "state": "CO",
+                "zip": "99001"
+            },
+            "phoneNumbers": [
+                "555-8901",
+                "555-2345"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Hannah White",
+            "email": "hannah.white@example.com",
+            "age": 26,
+            "address": {
+                "street": "707 Spruce St",
+                "city": "Newtown",
+                "state": "UT",
+                "zip": "11234"
+            },
+            "phoneNumbers": [
+                "555-9012",
+                "555-3456"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Ian King",
+            "email": "ian.king@example.com",
+            "age": 35,
+            "address": {
+                "street": "808 Redwood St",
+                "city": "Oldtown",
+                "state": "NM",
+                "zip": "22345"
+            },
+            "phoneNumbers": [
+                "555-0123",
+                "555-4567"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Julia Lee",
+            "email": "julia.lee@example.com",
+            "age": 30,
+            "address": {
+                "street": "909 Cypress St",
+                "city": "Smalltown",
+                "state": "ID",
+                "zip": "33456"
+            },
+            "phoneNumbers": [
+                "555-1234",
+                "555-5678"
+            ]
+        }
+    ],
+    "products": [
+        {
+            "id": 101,
+            "name": "Widget",
+            "price": 19.99,
+            "category": "Gadgets",
+            "stock": 100
+        },
+        {
+            "id": 102,
+            "name": "Gizmo",
+            "price": 29.99,
+            "category": "Gadgets",
+            "stock": 50
+        },
+        {
+            "id": 103,
+            "name": "Doodad",
+            "price": 9.99,
+            "category": "Accessories",
+            "stock": 200
+        },
+        {
+            "id": 104,
+            "name": "Thingamajig",
+            "price": 14.99,
+            "category": "Tools",
+            "stock": 150
+        },
+        {
+            "id": 105,
+            "name": "Whatsit",
+            "price": 24.99,
+            "category": "Gadgets",
+            "stock": 75
+        },
+        {
+            "id": 106,
+            "name": "Doohickey",
+            "price": 12.99,
+            "category": "Accessories",
+            "stock": 120
+        }
+    ],
+    "orders": [
+        {
+            "orderId": 1001,
+            "userId": 1,
+            "productIds": [
+                101,
+                102
+            ],
+            "total": 49.98,
+            "orderDate": "2023-10-01"
+        },
+        {
+            "orderId": 1002,
+            "userId": 2,
+            "productIds": [
+                102
+            ],
+            "total": 29.99,
+            "orderDate": "2023-10-02"
+        },
+        {
+            "orderId": 1003,
+            "userId": 3,
+            "productIds": [
+                103,
+                104
+            ],
+            "total": 24.98,
+            "orderDate": "2023-10-03"
+        },
+        {
+            "orderId": 1004,
+            "userId": 4,
+            "productIds": [
+                105
+            ],
+            "total": 24.99,
+            "orderDate": "2023-10-04"
+        },
+        {
+            "orderId": 1005,
+            "userId": 5,
+            "productIds": [
+                106,
+                101
+            ],
+            "total": 32.98,
+            "orderDate": "2023-10-05"
+        },
+        {
+            "orderId": 1006,
+            "userId": 6,
+            "productIds": [
+                102,
+                103
+            ],
+            "total": 39.98,
+            "orderDate": "2023-10-06"
+        },
+        {
+            "orderId": 1007,
+            "userId": 7,
+            "productIds": [
+                104
+            ],
+            "total": 14.99,
+            "orderDate": "2023-10-07"
+        },
+        {
+            "orderId": 1008,
+            "userId": 8,
+            "productIds": [
+                105,
+                106
+            ],
+            "total": 37.98,
+            "orderDate": "2023-10-08"
+        },
+        {
+            "orderId": 1009,
+            "userId": 9,
+            "productIds": [
+                101,
+                103
+            ],
+            "total": 29.98,
+            "orderDate": "2023-10-09"
+        },
+        {
+            "orderId": 1010,
+            "userId": 10,
+            "productIds": [
+                102,
+                104
+            ],
+            "total": 44.98,
+            "orderDate": "2023-10-10"
+        },
+        {
+            "orderId": 1011,
+            "userId": 11,
+            "productIds": [
+                105
+            ],
+            "total": 24.99,
+            "orderDate": "2023-10-11"
+        },
+        {
+            "orderId": 1012,
+            "userId": 12,
+            "productIds": [
+                106,
+                101
+            ],
+            "total": 32.98,
+            "orderDate": "2023-10-12"
+        },
+        {
+            "orderId": 1013,
+            "userId": 1,
+            "productIds": [
+                102,
+                103
+            ],
+            "total": 39.98,
+            "orderDate": "2023-10-13"
+        },
+        {
+            "orderId": 1014,
+            "userId": 2,
+            "productIds": [
+                104
+            ],
+            "total": 14.99,
+            "orderDate": "2023-10-14"
+        },
+        {
+            "orderId": 1015,
+            "userId": 3,
+            "productIds": [
+                105,
+                106
+            ],
+            "total": 37.98,
+            "orderDate": "2023-10-15"
+        },
+        {
+            "orderId": 1016,
+            "userId": 4,
+            "productIds": [
+                101,
+                103
+            ],
+            "total": 29.98,
+            "orderDate": "2023-10-16"
+        },
+        {
+            "orderId": 1017,
+            "userId": 5,
+            "productIds": [
+                102,
+                104
+            ],
+            "total": 44.98,
+            "orderDate": "2023-10-17"
+        }
+    ]
+}

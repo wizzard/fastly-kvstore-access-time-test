@@ -1,0 +1,34 @@
+# This file describes a Fastly Compute package. To learn more visit:
+# https://www.fastly.com/documentation/reference/compute/fastly-toml
+
+authors = ["paul.jonkins@humansecurity.com"]
+description = "Fastly KV store access time test"
+language = "rust"
+manifest_version = 3
+name = "kvstore_test"
+service_id = ""
+
+[local_server]
+
+  [local_server.backends]
+
+  [local_server.kv_stores]
+
+    [[local_server.kv_stores.PXKVstore]]
+      data = "TEST_123_TEST TEST 123!"
+      key = "short_string"
+
+    [[local_server.kv_stores.PXKVstore]]
+      data = "1234567890"
+      key = "u32_number"
+
+    [[local_server.kv_stores.PXKVstore]]
+      file = "kv_data/long_string.txt"
+      key = "long_string"
+
+    [[local_server.kv_stores.PXKVstore]]
+      file = "kv_data/data.json"
+      key = "json_data"
+
+[scripts]
+  build = "cargo build --bin fastly-compute-project --release --target wasm32-wasi --color always"
