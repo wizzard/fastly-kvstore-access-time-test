@@ -31,4 +31,4 @@ service_id = ""
       key = "json_data"
 
 [scripts]
-  build = "cargo build --bin fastly-compute-project --release --target wasm32-wasi --color always"
+  build = "cargo build --bin fastly-compute-project --release --target wasm32-wasip1 --color always"

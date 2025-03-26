@@ -25,3 +25,4 @@ Cargo.lock
 /bin
 /pkg
 fastly.toml
+kv_access_times.csv
